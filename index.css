@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    margin-left: 20%;
+    margin-top: 10%;
+    height: 60vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container .left {
+    background-color: rgb(101, 101, 236);
+    padding: 30px;
+    width: 30%;
+    border-radius: 10%;
+  }
+  .container .left h1 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+  .container .left .para {
+    text-align: center;
+    border-radius: 50%;
+    width: 130px;
+    height: 20vh;
+    margin-left: 80px;
+    margin-top: 20px;
+    padding: 30px;
+    color: white;
+    background: linear-gradient(to top, rgb(82, 82, 233), rgb(40, 40, 96));
+  }
+  .container .left .para span {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .container .left h3 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
+  }
+  .container .left .paragraph {
+    padding-top: 20px;
+    font-size: 19px;
+    color: white;
+  }
+  .container .left .paragraph span {
+    padding-left: 70px;
+  }
+  .container .right {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 0 10% 10% 0;
+    width: 30%;
+    box-shadow: 1px 1px 1px 1px rgb(194, 194, 249);
+  }
+  .container .right h1 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .place {
+    display: flex;
+    gap: 90px;
+  }
+  
+  .place span {
+    font-weight: bold;
+    color: black;
+  }
+  .sub {
+    background-color: rgb(194, 194, 249);
+    margin: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 9px;
+  }
+  button {
+    margin-top: 20px;
+    background-color: rgb(29, 29, 84);
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 85px;
+    border: none;
+    margin-left: 10px;
+  }
+  #memory {
+    background-color: rgb(253, 224, 229);
+  }
+  #memory .word {
+    color: rgb(251, 179, 44);
+    font-weight: bold;
+  }
+  #reaction {
+    background-color: rgb(253, 224, 229);
+  }
+  #reaction .word {
+    color: rgb(242, 44, 44);
+    font-weight: bold;
+  }
+  #verbal {
+    background-color: rgb(217, 249, 217);
+  }
+  #verbal .word {
+    color: rgb(58, 94, 58);
+    font-weight: bold;
+    justify-content: space-between;
+  }
+  #verbal .percent{
+    padding-left: 17px;
+  }
+  #visual {
+    background-color: rgb(219, 219, 255);
+  }
+  #visual .word {
+    color: blue;
+    font-weight: bold;
+  }
+  #visual .percent{
+    padding-left: 17px;
+  }
